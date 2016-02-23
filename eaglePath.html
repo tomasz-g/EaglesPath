@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- index.html 19/01/2016 TG-->
+
+<html>
+	<head>
+		<title>Eagle's Path</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="./eaglePath_style.css">
+	    <link rel="icon" href="./images/eagleIcon.jpg" type="image/gif">
+	</head>
+	
+	<body>
+		<!-- The page header in div container with background and title, 
+			 styles paramiters can be change in CSS using id and class names bellow -->
+		<div id="header"><h1 id="head1"><em>Eagle's Path</em></h1></div>
+		
+		<!-- The page main menue in nav container with list of links 
+		 styles paramiters can be change in CSS using id and class names bellow -->
+		<nav id="navigation">
+			<ul class="menue">
+				<!-- add 'https' at front of the link to make it work -->
+				<li><a href="://en.wikipedia.org/wiki/Orla_Per%C4%87#History" 
+				title="Eagle's Path History on Wikipedia">History</a></li>
+				<!-- add 'https' at front of the link to make it work -->
+				<li><a href="://en.wikipedia.org/wiki/Orla_Per%C4%87#/media/File:Orla_Perc_-_mapa.png"
+				title="Eagle's Path Map">Map</a></li>
+				<li><a href="eagle's/path/links.org" title="Eagle's Path Links">Links</a></li>		
+			</ul>
+		</nav><hr>
+		
+		<!-- Table of foto gallery in div container on the left side of the page
+		 styles paramiters can be change in CSS using id and class names bellow -->
+		<div class="side">
+			<table class="images">
+				<tr>
+					<th>GALLERY</th>
+				</tr>
+				<tr>
+					<td><img class="orlaImg" src="./images/orla1.jpg" alt="orla1abcdefghijklmnoprstuwxyz"></td>
+				</tr>
+				<tr>
+					<td><img class="orlaImg" src="./images/orla.jpg" alt="orla2"></td>
+				</tr>
+				<tr>
+					<td><img class="orlaImg" src="./images/orla3.jpg" alt="orla3"></td>
+				</tr>
+			</table>
+		</div>
+		
+		<!-- The page main section on the middle of the page with text and background 
+		 styles paramiters can be change in CSS using id and class names bellow -->
+		<section id="mainSection">
+			<h2>Orla Perć</h2>
+			<p><span><abbr title="translation from Wikipedia.org">Eagle's Path</abbr></span>
+			is a tourist path in the Tatra Mountains in southern Poland. 
+			It is the longest and the most difficult and dangerous public path in the entire Tatras,
+			which led through slopes and abroad through the passes and peaks. On the trail there are 
+			chains, buckles and 2 steel ladders to make it easier, but nevertheless trail is not 
+			suitable for novice hikers. Requires some familiarity with the mountains, way to use 
+			chains, and finally the ability to search for competent tricks and degrees. This is 
+			especially important in bad weather. Numerous exhibitions on the route are relatively 
+			strong, so the trail is discouraged for people with a fear of heights.		
+			Is therefore a suitable route only for experienced climbers, since it was established, 
+			<strong>more than 120 people have lost their lives on the route.</strong></p>
+		</section>
+		
+		<!-- The comment box in the right-bottom corner of the page 
+		visitors can make a comment and sand it to e-mail provided in form bellow
+		styles paramiters can be change in CSS using id names bellow -->
+		<div id="comment">
+		<form action="mailto:myEmail@gmail.com" method="post" enctype="text/plain">
+		<textarea id="textin" placeholder="your comment..."></textarea><br><br>
+		<input id="submit" type="image" src="./images/envelope.png" title="Send" alt="Submit">		
+		</form>
+		</div>
+		
+		<!-- Click Go To Top lable to back to the top of the page 
+		 styles paramiters can be change in CSS using id name bellow -->
+		<a href="#header"><img id="goToTop" src="./images/arrowTop.png" alt="go to top"></a>
+		
+		<!-- Footer of the page, informaition about author and copyrights
+		 styles paramiters can be change in CSS using class name bellow -->
+		<footer>
+				Copyright &copy; 2016 &lt;TG &amp; NOONEELSE&gt;&reg; No rights reserved.
+		</footer>
+		
+	</body>
+</html>

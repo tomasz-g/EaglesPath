@@ -1,0 +1,219 @@
+/* eaglePath_style.css 19/01/2016 TG */
+
+/* the page body style
+- image as a background from URL
+- background area to cover and style
+- text style */
+body {	
+	margin:2% 3%;
+	background: url("./images/orla2.jpg") no-repeat center center fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	text-align:justify;
+}
+/* header style
+- image as a background from URL
+- background area to cover and style
+- header border style */
+#header{
+	width:95%;
+	height:200px;
+	background: url("./images/panorama.jpg");
+	background-size:cover;	
+	border-style:inset;
+	border-color:#A9A9A9;
+	border-width:10px;
+}
+/* text style and position inside header */
+#head1 {
+	padding-top:30px;
+	padding-right:30px;
+	text-align:right;	
+	font-family:"Comic Sans MS", "FFF Tusj", "Lucida Console";
+	font-size:100px;
+	color:#FFEBCD;
+}
+/* menue style
+- image as a background from URL
+- background area to cover and style
+- menue border style */
+#navigation {
+	width:90%;
+	height:auto;
+	margin-top:15px;
+	background: url("./images/map.jpg");
+	background-size:cover;
+	border:solid;
+	border-radius:10px;	
+}
+/* menue list style
+- image as a table data background from URL
+- background style and size
+- list data display style 
+- links style
+- text style and position */
+.menue li {
+	padding:15px;
+	margin-left:25px;
+	display:inline;
+	background: url("./images/arrow1.png");
+	background-size: 100% 40px;
+	background-repeat:no-repeat;
+}
+.menue li a {
+	font-size:x-large;
+	color:#000000;
+	text-decoration:none;
+	text-align:center;
+	padding-right:20px;
+	padding-left:10px;
+	font-weight:bold;	
+}
+.menue li a:hover {
+	color:#68340E;
+	text-decoration:underline;
+}
+.menue li a:active {
+	color:#B22222;
+}
+.menue li a:visited {
+	text-decoration:underline;
+}
+/* gallery style
+- image as a gallery background from URL
+- images size and position
+- text size and position
+- border style */
+.side {
+	padding:15px;
+	margin-top:50px;
+	margin-right:50px;
+	margin-left:5px;
+	float:left;
+	width:15%;
+	height:auto;
+	background: url("./images/woodBackground1.jpg");
+	background-size:cover;
+}
+.images th{
+	font-size:xx-large;
+	font-family:"Arial Black";
+	color:#000000;
+	text-align:center;
+	background-color:#68340E;
+	border:solid;
+	border-color:#000000;	
+}
+.orlaImg {
+	width:100%;
+	height:100px;
+	border:solid;
+	border-width:5px;
+	border-style:inset;
+	border-color:#68340E;
+	border-radius:5px;
+}
+/* main section style
+- text style and size
+- image as a background from URL
+- section size */
+#mainSection{	
+	width:80%;
+	color:#FFFFFF;
+	font-size:x-large;
+	margin: 50px;
+	padding:10px 25px;
+	font-family:Verdana;
+	background: url("./images/backgroundStone.jpg");
+	background-size:cover;
+}
+#mainSection p {
+	text-indent:40px;
+}
+#mainSection p::first-letter {
+	font-size:150%;
+	font-family:"Comic Sans MS";
+}
+#mainSection span {
+	font-size:xx-large;
+	font-weight:bold;
+	color:#3CB371;
+}
+/* comment box style
+- box position and size 
+- text size and font style
+- image as a background from URL */
+#comment {
+	float:right;
+	width:25%;
+}
+#textin {
+	font-size:x-large;
+	color:#000000;
+	float:right;
+	width:100%;
+	height:70px;
+	background: url("./images/grassBackground.jpg");
+	background-size:cover; 
+	border:solid;
+}
+#textin:hover {
+	background:none;
+	background-color:white;
+}
+/* submit button position and size */
+#submit {
+	float:right;
+	width:40px;
+	height:30px;
+}
+/* Go To Top lable position and size */
+#goToTop {
+	float:left;
+	width: 110px;
+	height: 45px;
+	margin-bottom:20px;
+}
+/* footer size, style and position */
+footer{
+	padding-top:150px;
+	font-size:small;
+	font-style:Italic;
+	font-weight:bold;
+	color:#000000;
+	text-align:Center;
+	width:100%;
+}
+
+/*code to change textarea-placeholder text color (gray by default), 
+works but throw an error and warnings when validate on W3C CSS
+uncomment 156 - 173 to use it*/
+
+/*
+#textin::-webkit-input-placeholder { 
+    color:    #000000;	
+	font-weight:bold;
+}
+#textin::-moz-placeholder { 
+   color:    #000000;
+   opacity:  1;
+}
+#textin::-moz-placeholder {
+   color:    #000000;
+   opacity:  1;
+}
+#textin::-ms-input-placeholder {
+   color:    #000000;
+}
+#textin::placeholder-shown {
+  color:    #000000;
+}
+*/
+
+/*
+#1 textin - WebKit, Blink, Edge 
+#2 textin - Mozilla Firefox 4 to 18
+#3 textin - Mozilla Firefox 19+
+#4 textin - Internet Explorer 10-11
+#5 textin - Standard (https://drafts.csswg.org/selectors-4/#placeholder)
+*/
